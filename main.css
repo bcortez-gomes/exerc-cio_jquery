@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abril Fatface", serif;
+    background-color: #e4e4e4;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    padding-top: 35px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header {
+    background-color: white;
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: normal;
+    border: 2px solid black;
+}
+
+header h1 {
+    background-color: white;
+}
+
+header #imagem_esquerda {
+    transform: rotateY(180deg);
+}
+
+header img {
+    width: 5%;
+}
+
+body h3 {
+    font-size: medium;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    text-align: center;
+}
+
+input, button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+input {
+    width: 82%;
+}
+
+button {
+    width: 16%;
+    margin-left: 14px;
+}
+
+li {
+    margin-top: 24px;
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    list-style: inside;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+#foot-li {
+    list-style: none;
+} /*Notificar o tutor que eu não consegui manter essa linha com a mesma altura das demais*/
+
+
+.checked {
+    text-decoration: line-through;
+}

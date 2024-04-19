@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio_Jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <img id="imagem_esquerda" src="./images/imagem1.jpg" lt="imagem de um ramo de folhas">
+        <h1>TAREFAS</h1>
+        <img id="imagem_direita" src="./images/imagem1.jpg" alt="imagem de um ramo de folhas">
+    </header>
+        <div class="container">
+            <form id="form-tarefas">
+                <input type="text" id="nova-tarefa-adicionada" required placeholder="Nome da tarefa:">
+                <button type="submit">Adicionar +</button>
+            </form>
+                <h3>Lista de tarefas da semana</h3>
+                    <ul>
+                        <li id="nova-info" class="infos-lista" style="display: none;"></li>
+                        <li id="foot-li"></li>
+                    </ul>
+            <script src="./main.js"></script>
+        </div>
+</body>
+</html>
