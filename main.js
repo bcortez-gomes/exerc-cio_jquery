@@ -25,15 +25,15 @@ function adicionaTarefaSemana() {
         linhas += linha;
 }
 
-const listaDeTarefas = document.getElementById('nova-info');
+const listaDeTarefas = document.querySelector('ul');
 listaDeTarefas.innerHTML = linhas;
 
 inputTarefaSemana.value = '';
 }
 
 function atualizaLista() {
-    const listaDeTarefas = document.getElementById('nova-info');
-    listaDeTarefas.innerHTML - linhas;
+    const listaDeTarefas = document.querySelector('ul');
+    listaDeTarefas.innerHTML = linhas;
 }
 
 const checkNaLista = document.querySelector('ul');
